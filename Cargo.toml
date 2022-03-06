@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["{{authors}}"]
 
 [lib]
-name = "{{project-name}}_rs"
+name = "{{crate_name}}_rs"
 crate-type = ["staticlib"]
 path = "src/lib.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
