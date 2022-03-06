@@ -34,6 +34,5 @@ endif ()
 add_custom_target(rs_lib
         COMMAND ${CARGO_CMD}
         )
-message(  ${PROJECT_LIBS})
 add_dependencies(${APP_NAME} rs_lib)
 target_link_libraries(${APP_NAME}  ${PROJECT_LIBS})
