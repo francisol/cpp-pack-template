@@ -1,3 +1,4 @@
+use {{crate_name}}::main_run;
 fn main() {
-    println!("Hello, world!");
+    main_run();
 }
